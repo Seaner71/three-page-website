@@ -86,11 +86,7 @@ footer p {
     float: none;
     width: 100%;
   }
-  .contact-box .right {
-    float: none;
-    clear: both;
-    width: 100%;
-  }
+  
   /* change header to burger menu on smaller screens */
   .burger {
     display: block;
@@ -118,6 +114,7 @@ footer p {
 }
 @media screen and (max-width: 768px) {
  .contact-box .right {
+  display: inline;
   float: none;
   color: red;
  }
