@@ -119,6 +119,7 @@ footer p {
 @media screen and (max-width: 768px) {
  .contact-box .right {
   float: none;
+  color: red;
  }
 
 }
