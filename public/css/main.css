@@ -42,7 +42,7 @@ body {
 }
 
   .hobby {
-  outline: 1px solid red;
+
   /*width: 90%;*/
   height: 300px;
   width: 500px;
@@ -51,8 +51,7 @@ body {
   .hobby img {
     max-width: 100%;
     max-height: 100%;
-    outline: 1px solid red;
-    }
+        }
   /*.golf {
     outline: 1px solid red;
     margin: 0 auto;
