@@ -88,6 +88,15 @@ footer p {
   margin: 0 auto;
 }
 
+.contact-box img {
+	display: block;
+	margin: 0 auto;
+}
+
+.contact-box figcaption{
+	text-align: center
+}
+
 .contact-box .left {
   float: left;
 }
