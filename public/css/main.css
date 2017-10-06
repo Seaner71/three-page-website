@@ -1,3 +1,4 @@
+/* HEADER CODE ALL PAGES*/
 ul.nav-header {
   list-style-type: none;
   margin: 0;
@@ -31,36 +32,7 @@ li a:hover:not(.active) {
 .active {
   background-color: #4CAF50;
 }
-
-body {
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
-.contact-box img {
-  width: 200px;
-  height: 200px;
-}
-
-.hobby {
-  /*width: 90%;*/
-  height: 40%;
-  width: 40%;
-  margin: 0 auto;
-}
-
-.hobby img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-/*.golf {
-    outline: 1px solid red;
-    margin: 0 auto;
-    width: 90%;
-    height: 300px;
-  }*/
-
+/*Footer on all pages*/
 footer {
   margin: 0;
   padding: 0;
@@ -78,10 +50,27 @@ footer p {
   margin: 0 30px;
   line-height: 2em;
 }
+/* clear body of site from header(fixed) and footer(fixed) look for other solutuo*/
+body {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 
+/*iamges on hobby page*/
+.hobby {
+  /*width: 90%;*/
+  height: 40%;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.hobby img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/*boxed and images on contact page*/
 .contact-box {
   display: inline-block;
-  /*background-color: rgba(0, 0, 0, 0.1);*/
   border: 1px solid rgba(0, 0, 0, 0.2);
   width: 40%;
   height: 16em;
@@ -91,6 +80,8 @@ footer p {
 .contact-box img {
 	display: block;
 	margin: 0 auto;
+  width: 200px;
+  height: 200px;
 }
 
 .contact-box figcaption{
@@ -137,7 +128,6 @@ footer p {
     width: 3em;
     height: 3em;
     margin: 4px;
-    /*begin test*/
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -146,7 +136,6 @@ footer p {
     width: 100vw;
     top: 0;
     left: 0;
-    /* end test*/
   }
   .burger>span {
     display: block;
