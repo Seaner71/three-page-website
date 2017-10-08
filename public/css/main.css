@@ -1,5 +1,5 @@
 /*Home page background image*/
-body  {
+#home-image  {
 background-image: url("../img/valley_forge.jpg");
 }
 /* HEADER CODE ALL PAGES*/
