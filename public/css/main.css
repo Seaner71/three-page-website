@@ -1,3 +1,7 @@
+/*Home page background image*/
+body  {
+background-image: url("../img/valley_forge.jpg");
+}
 /* HEADER CODE ALL PAGES*/
 ul.nav-header {
   list-style-type: none;
