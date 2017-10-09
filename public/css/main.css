@@ -1,6 +1,10 @@
 /*Home page background image*/
 #home-image  {
-background-image: url("../img/valley_forge.jpg");
+background: url("../img/valley_forge.jpg") no-repeat center;
+}
+.home-text {
+  color: white;
+  text-align: center;
 }
 /* HEADER CODE ALL PAGES*/
 ul.nav-header {
