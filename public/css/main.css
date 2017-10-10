@@ -2,7 +2,7 @@
 #home-image  {
 background: url("../img/valley_forge.jpg") no-repeat center;
 }
-.home-text {
+#home-text {
   color: white;
   text-align: center;
 }
