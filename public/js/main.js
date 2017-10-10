@@ -8,15 +8,25 @@ function onLoad() {
   document.getElementById('name').innerHTML = "Sean Smyth"
 }
 
-var skillsArray = ['HTML', "CSS", "JavaScript","Ruby", "SQL"]
-
 function addSkills() {
-  var ul = document.createElement('ul');
-  document.getElementById('home-text').appendChild(ul);
-  document.getElementById('home-text').appendChild(document.createElement('li'));
+  (function(){
+      var ul = document.createElement('ul');
+      ul.setAttribute('id','skillList');
 
-  // document.write("hello")
+      var t, tt;
+      skillsArray = ['HTML', "CSS", "JavaScript","Ruby", "SQL","React"]
+      document.getElementById('home-text').appendChild(ul);
+      skillsArray.forEach(renderSkillsArray);
+
+      function renderSkillsArray(element, index, arr) {
+          var li = document.createElement('li');
+          li.setAttribute('class','item');
+
+          ul.appendChild(li);
+
+          t = document.createTextNode(element);
+
+          li.innerHTML=li.innerHTML + element;
+      }
+  })();
 }
-
-
-// document.createElement('<ul><li>' + skillsArray.join('</li><li>') + '</li></ul>')
