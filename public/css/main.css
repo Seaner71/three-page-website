@@ -19,7 +19,7 @@ ul.nav-header {
   left: 0;
 }
 
-.nav-header li>.btn {
+.nav-header li {
   float: left;
   border-right: 1px solid #bbb;
 }
@@ -103,6 +103,12 @@ body {
 .contact-box .right {
   float: right;
 }
+/* javascript created elements styling*/
+#skillList li {
+  list-style-type: none;
+  text-align: center;
+}
+
 
 /*media query portion*/
 
