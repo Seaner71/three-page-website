@@ -1,15 +1,9 @@
-
-
-
 function addButton() {
   document.getElementById('name').innerHTML ="Sean Smyth";
   document.getElementById('job').innerHTML ="Web Developer";
   document.getElementById('experience').innerHTML ='Financial Professional';
 }
 
-function onLoad() {
-  document.getElementById('name').innerHTML = "Sean Smyth"
-}
 
 function addSkills() {
   (function(){
@@ -33,3 +27,5 @@ function addSkills() {
       }
   })();
 }
+
+setTimeout(addButton, 2000)
